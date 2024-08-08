@@ -1,1 +1,1 @@
-# bible2.github.io
+# bible1.github.io

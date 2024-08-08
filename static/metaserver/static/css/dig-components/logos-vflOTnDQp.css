@@ -1,0 +1,8 @@
+/** @generated -- This file is automatically synced from @dropbox/dig-logos@4.0.3. DO NOT MODIFY! **/
+
+/**
+  This file should not be imported into your CSS or SASS files - the CSS variables will be available on the page for you to use.
+  DO NOT USE THIS FILE OR THE CSS VARIABLE TOKENS WITHOUT FIRST TALKING TO THE DESIGN SYSTEMS ON-CALL (SEE #design-systems ON SLACK)
+**/
+
+.dig-Mode--bright,:root{--color__glyph__primary:#1e1919;--color__glyph__accent:#0061fe;--color__inverse__glyph__primary:#696663;--color__inverse__glyph__accent:#3984ff}.dig-Mode--dark,.dig-Theme--dark{--color__glyph__primary:#696663;--color__glyph__accent:#3984ff;--color__inverse__glyph__primary:#1e1919;--color__inverse__glyph__accent:#0061fe}

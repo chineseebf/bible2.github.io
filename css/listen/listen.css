@@ -1,0 +1,166 @@
+body { 
+  background: #e5e5e5; 
+  text-align: left; 
+  padding: 20px 0 20px 0; 
+  margin: 0
+}
+
+body, p, li, h1, h2, h3, button { font-family: Helvetica, sans-serif, sans; }
+
+#Listen { 
+  padding: 24px 30px;
+  padding-bottom: 30px;
+  /*position: absolute;*/
+
+  /*height: 100%;*/
+  /*width: 100%;*/
+  box-sizing: border-box;
+  /*overflow:hidden;*/
+  /*height: 300px;*/
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: auto;
+}
+
+
+#Listen h1 { 
+  font-size: 20px; 
+  margin: 0 0 14px 0; 
+  color: #777;
+  text-transform: uppercase;
+}
+
+#Listen h2 { 
+  font-size: 18px; 
+  margin: 0 0 14px 0; 
+  color: #777;
+  text-transform: uppercase;
+}
+
+
+#Listen .button-container {
+  float: left;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+#Listen .button-container p {
+  color: #999;
+}
+
+#Listen .direct-link {
+  color: #39e;
+}
+
+#Listen button {
+  background-color: #39e; 
+  border-radius: 10px; 
+  padding: 12px 24px 12px 20px; 
+  margin-bottom: 20px; 
+  color: #fff; 
+  font-size: 36px; 
+  border: 0; 
+  transition: all 0.3s;
+}
+
+#Listen button:hover {
+  background-color: #28d;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+
+
+
+
+#Listen .content-container {
+  padding: 8px 0 0 0; 
+  margin: 0;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+@media(max-width: 600px) {
+  #Listen main.content-container {
+    float: left;
+    box-sizing: border-box;
+  }
+}
+
+
+
+
+#Listen .content-container h3 { 
+  text-align: left;
+  margin: 10px 0 20px 0px;
+  overflow: hidden;
+}
+
+#Listen .current-show .time-container {
+  float: right;
+  color: #999;
+  margin-left: 20px;
+}
+
+#Listen .current-show-container {
+  margin-bottom: 30px;
+}
+
+#Listen .current-show img {
+  float: right;
+  margin: 0 20px 20px 20px
+}
+
+#Listen .current-show h3 {
+  font-size: 24px;
+}
+
+
+#Listen div.listen { 
+  /*padding-top: 30px;  */
+  width: 200px;
+  padding: 20px 0; 
+  margin: 20px 0;
+  /*background: #eee; */
+  /*border-radius:*/
+}
+
+#Listen p { 
+  display: block;
+}
+#Listen i { 
+  margin-right: 5px; 
+}
+#Listen ol, #Listen ul { 
+  margin: 0; 
+  padding: 8px 0 0 0; 
+  overflow: hidden;
+}
+#Listen .track { 
+  list-style: none; 
+  text-align:left; 
+  margin: 0 0 14px 0; 
+  padding: 0; 
+  line-height: 150%;
+  font-size: 16px;
+}
+#Listen .track .time { 
+  color: #999; 
+  margin-left: 10px; 
+  float: right;
+}
+#Listen .track .info { 
+  display: block;
+  overflow: hidden;
+}
+#Listen .track .artist { 
+  font-weight: bold; 
+}
+
+#Listen .track.current-track {
+  font-size: 19px;
+  margin-bottom: 40px;
+} 
+
